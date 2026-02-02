@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 /**
  * MENU DE RESTAURANT
  * Nom de l'étudiant : [Christophe Granger]
@@ -17,13 +19,86 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333; /* Ajutez avec votre couleur de texte principale */
-    background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
+  font-family: "Sour Gummy", sans-serif;/* Changez pour votre choix de police de caractères de Google Fonts*/
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333; /* Ajutez avec votre couleur de texte principale */
+  background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
+ 
 }
+
 
 /* ========================================
    VOTRE CODE CSS ICI
    ======================================== */
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0 0,5rem 0;
+}
+
+h2{
+  text-align: left;
+  font-size: 2rem;
+}
+
+
+section{
+  background-color: rgba(110, 96, 116, 0.103);
+  max-width: 800px;
+  width: 35rem;
+  margin: auto;
+  padding: 3rem;
+ }
+
+section.entrées{
+  border-radius: 1rem 1rem 0 0;
+  }
+
+section.desserts{
+  border-radius: 0 0 1rem 1rem ;
+  }
+
+.ratatouille-vectoriel{
+  position: relative;
+  left: 1rem;
+  bottom: 1rem;
+  width: 95px;
+  float: right;
+  z-index: 9999;
+}
+article:hover{
+  background-color: rgba(86, 133, 219, 0.119);
+}
+.plats {
+  display:inline-block;
+  text-align: left;
+  font-size: 1.2rem;
+}
+.ingrédients{
+  text-align: left;
+}
+
+.prix{
+  font-weight: bold;
+  float: right;
+  clear: both;
+  font-size: 1.2rem;
+}
+
+.entrées,.repas{
+border-bottom: 3px solid rgba(223, 80, 80, 0.534);
+
+}
+
+.desserts{
+  text-align: left;
+  
+}
+li{
+  list-style: none;
+}
+
+
+
+

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Le Restaurats</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
   </head>
-  <header>
-    <h1>Le Restaurats</h1>
-  </header>
-  <body>
-    <!-- 
+
+  <!-- 
         INSTRUCTIONS :
         1. Remplacez "Nom du Restaurant" par le nom de votre choix
         2. Créez une structure sémantique (section, article, header, etc.)
@@ -19,14 +19,118 @@
 
         Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
     -->
+  <body>
+    <header>
+      <h1>Menu: Le Restaurats</h1>
+    </header>
     <main>
-      <div class="conteneur">
-        <article class="Menu">
-            <h2>Menu</h2>
-            <article>- Les Entrées -</article>
-            
-        
-      </div>
+      <section class="entrées">
+        <h2>Entrées</h2>
+        <ul>
+          <li>
+            <article>
+              <h3 class="plats">Soupe au radis </h3>
+              <p class="prix">[VÉGÉ] 5,99$</p>
+              <div class="ingrédients">
+                - Oignons, radis, carrottes, échalottes
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="plats">Bâtonnets de fromage</h3>
+              <p class="prix">6,99$</p>
+              <div class="ingrédients">
+                - 5 bâtonnets, mozzarella, viens avec de la sauce sriracha
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="plats"> Salade de ravioli </h3>
+              <p class="prix">6,99$</p>
+              <div class="ingrédients">
+                - Laitue iceberg, croûtons, sauce maison, parmesan
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="repas">
+        <h2>Repas</h2>
+        <ul>
+          <li>
+            <article>
+              <h3 class="plats"> Ratatouille </h3>
+              <p class="prix">[POPULAIRE] 26,65$</p>
+              <div class="ingrédients">
+                - Légumes, basilic ciselé, ail, thym frais
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="plats"> Gratin de chou-fleur </h3>
+              <p class="prix">21,99$</p>
+              <div class="ingrédients">
+                - Chou-fleur blanc, béchamel maison, fromage cheddar gratiné
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="plats"> Raclette (pour 2)</h3>
+              <p class="prix">45$</p>
+              <div class="ingrédients">
+                - Servis fondu dans un bol avec pommes de terre, salade, 2
+                viandes froides au choix
+              </div>
+              <img
+                class="ratatouille-vectoriel"
+                src="./asset/img/ratatouille 21 - vectoriel.png"
+                alt="Ratatouille "
+              />
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="desserts">
+        <h2>Desserts</h2>
+        <ul>
+          <li>
+            <article>
+              <h3 class="plats"> Tiramisu </h3>
+              <p class="prix">8$</p>
+              <div class="ingrédients">
+                - Espresso, liqueur de café, fromage mascarpone, peut contenir
+                des arachide
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="plats">Crème glacée au caramel </h3>
+              <p class="prix">9,45$</p>
+              <div class="ingrédients">
+                - 2 boules avec garniture au choix, smarties, skors, coulis de
+                chocolat
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="plats"> Praliné maison </h3>
+              <p class="prix">5$</p>
+              <div class="ingrédients">
+                - Fait soigneusement avec des amandes et des noisettes
+                caraméliser dans un petit pot maçon
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
     </main>
+    <footer></footer>
   </body>
 </html>
